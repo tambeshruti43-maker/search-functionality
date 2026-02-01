@@ -11,8 +11,8 @@ public class InventoryService {
                 new Product("Orange",60),
                 new Product("Banana",10),
                 new Product("Mango",45),
-                new Product("Grapes",55)
-
+                new Product("Grapes",55),
+                new Product("Strawberry",50)
         );
     }
 

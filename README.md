@@ -1,27 +1,28 @@
 # Search Service - Spring Boot Assignment
 ## Overview
-This is a simple Spring Boot application that demonstrates a **Search Service**
-using **Java Stream API** to filter products from an inventory source.
+This project is a *Spring Boot based Search Service** that allows users to search products based on **price criteria**.
+It demonstrate clean backend archietecture,Java Stream API usage, and RESTful API design.
 
-The project is designed as part of a backend assignment to showcase:
--Clean architecture
--Dependency Injection 
--Java Streams
--Spring Boot basics
+The service uses a **mock inventory** (in-memory data) and is designed to be easily extendable to a real database.
 
 ---
 
 ## Technologies Used
 - Java 21
-- Spring Boot
+- Spring Boot 3.2.5
 - Maven
 - IntelliJ IDEA
+- Java Stream API
+- Swagger (OpenAPI)
 
 ## Features 
 -Mock inventory data
 -Filter products using Java Stream API
 -CommandLineRunner used for demonstration
--No database dependency
+
+## API Endpoints
+### Search Products Above Price
+Returns product names that have price **less than the given value**,sorted in ascending order.
 ---
 
 ## How to Run

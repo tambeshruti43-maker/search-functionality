@@ -5,7 +5,7 @@ import java.util.List;
 
 @Service
 public class InventoryService {
-    public List<Product> getAllProduct(){
+    public List<Product> getAllProducts(){
         return List.of(
                 new Product("Apple",30),
                 new Product("Orange",60),
